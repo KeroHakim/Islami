@@ -43,10 +43,10 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-        viewBinding.content.btnNav.selectedItemId = R.id.nav_quran
+        viewBinding.content.btnNav.selectedItemId = R.id.nav_sebha
     }
 
     private fun pushFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction().addToBackStack(null).replace(viewBinding.content.fragmentContainer.id,fragment).commit()
+        supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.fragment_container,fragment).commit()
     }
 }

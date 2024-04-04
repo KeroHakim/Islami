@@ -6,4 +6,7 @@
     <color name="color_transparent">#00000000</color>
     <color name="primary_color_2">#141A2E</color>
     <color name="clear_gold">#FAC82A</color>
+    <color name="counter_color">#C8B395</color>
+
+
 </resources>
