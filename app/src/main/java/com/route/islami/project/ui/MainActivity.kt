@@ -5,19 +5,23 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.route.islami.R
 import com.route.islami.databinding.ActivityMainBinding
+import com.route.islami.project.home.quran.adapters.SuraAdapter
 import com.route.islami.project.home.hadeth.HadethFragment
 import com.route.islami.project.home.quran.QuranFragment
 import com.route.islami.project.home.radio.RadioFragment
 import com.route.islami.project.home.sebha.SebhaFragment
+import com.route.islami.project.home.quran.models.SuraDataClass
 
 class MainActivity : AppCompatActivity() {
     lateinit var viewBinding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         initViews()
     }
+
 
     private fun initViews() {
         viewBinding.content.btnNav.setOnItemSelectedListener {

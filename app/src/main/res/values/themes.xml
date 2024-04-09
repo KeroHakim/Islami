@@ -10,7 +10,7 @@
     <style name="Theme.Islami" parent="Base.Theme.Islami" />
     <style name="bottomNavigation">
         <item name="android:background">@color/primary_color</item>
-        <item name="itemIconSize">40dp</item>
+        <item name="itemIconSize">50dp</item>
         <item name="itemIconTint">@color/home_button_nav_selector</item>
         <item name="itemTextColor">@color/home_button_nav_selector</item>
     </style>
